@@ -10,6 +10,7 @@
     --White: #FFF;
     --Cornflower-blue: #6495ED;
     --Steel-blue: #4682B4;
+    --Light-sk-blue: #87CEFA;
 }
 
 header {
@@ -17,30 +18,40 @@ header {
     height: 8rem;
     display: flex;
     justify-content: center;
+    padding: 3rem;
 }
 
 img {
     width: 30rem;
     height: 20rem;
+    padding: 2rem;
 }
 
 .primeira {
     display: flex;
+    align-items: center;
     gap: 1rem;
-    padding: 3rem;
+    padding: 2rem;
+    background-color: var(--Steel-blue);
 }
 
 .segunda {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 3rem;
-
+    background-color: var(--Cornflower-blue);
+    justify-content: space-between;
 }
 
-p {
+.terceira {
+    display: flex;
+    width: 20rem;
+    height: 30rem;
+    flex-direction: column;
     padding: 2rem;
-
 }
+
 
 
 
